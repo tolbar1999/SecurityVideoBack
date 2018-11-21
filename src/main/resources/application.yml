@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/security_video?useSSL=false
+    username : root
+    password: tolbar12345
+server:
+  port: 6969
